@@ -9,11 +9,11 @@ package pertemuan11;
  *
  * @author Abdulloh Aqil
  */
-public class Node {
-    int data;
+public class Node<T> {
+    T data;
     Node next;
-
-    public Node(int data, Node next) {
+    
+    public Node(T data, Node next){
         this.data = data;
         this.next = next;
     }
